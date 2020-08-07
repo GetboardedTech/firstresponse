@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: firstresponse.pt
+Token: 0063b8270706f1d13f96c2792bcd9c935db84b41b7c76e687d0bbd1936d255da

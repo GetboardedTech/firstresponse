@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Feeling sick?
+       Test yourself against the Corona Virus symptoms.
+       Developed on the research <…> and adopted from the WHO guidelines. Check yourself for Covid19 symptoms.">
+    <meta name="keywords" content="Corona Virus test, corona symptoms, recovery from covid19, corona virus, Corona diagnosis, Covid19 Symptoms">
+    <link rel="icon" href="<%= BASE_URL %>health.gif">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>loader.css">
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+      <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+      })(window,document,'script','dataLayer','GTM-WPT6FBK');</script>
+      <script type="text/javascript" src="/data/world_timeline.js"></script>
+      <script type="text/javascript" src="/data/total_timeline.js"></script>
+    <title>The corona virus test -  Coming (Distancing) together for COVID</title>
+  </head>
+  <body>
+<!--    <noscript>-->
+<!--      <strong>We're sorry but Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>-->
+<!--    </noscript>-->
+    <div id="loading-bg">
+      <div class="loading-logo">
+        <img src="<%= BASE_URL %>rolling.gif" alt="Logo" style="height: 90px;width: 90px;">
+      </div>
+    </div>
+    <div id="app">
+
+    </div>
+    <!-- built files will be auto injected -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPT6FBK"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+  </body>
+</html>
